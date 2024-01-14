@@ -54,6 +54,3 @@ class Follow(models.Model):
         User, on_delete=models.CASCADE,
         related_name='following', verbose_name='На кого подписан'
     )
-
-    # def __str__(self):
-    #     return self.text
