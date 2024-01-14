@@ -117,7 +117,7 @@ api/v1/posts/{post_id}/comments/{comment_id}/ (GET, PUT, PATCH, DELETE)
 Получаем все подписки пользователя, сделавшего запрос или создаем новую:
 
 ```
-api/v1/groups/ (GET)
+api/v1/follow/ (GET, POST)
 ```
 
 ### Использованные технологии:
